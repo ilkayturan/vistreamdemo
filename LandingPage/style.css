@@ -1,0 +1,230 @@
+@font-face {
+    font-family: FS Albert;
+    src: url(fonts/FSAlbert\ Light.ttf);
+}
+
+@font-face {
+    font-family: FS Albert-Bold;
+    src: url(fonts/FSAlbert\ Bold.ttf);
+}
+
+
+.py-8 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+.logo {
+    width: 143px;
+    height: 35px;
+}
+
+.navbar {
+    --bs-navbar-color: #232B76 !important;
+    --bs-navbar-hover-color: #161e63 !important;
+    --bs-navbar-disabled-color: #232B76 !important;
+    --bs-navbar-active-color: #232B76 !important;
+    box-shadow: 0px 3px 6px #00000029;
+
+}
+
+.nav-link {
+    font: normal normal bold 16px/37px FS Albert !important;
+    color: #232B76 !important;
+}
+
+.small-header {
+    font: normal normal bold 21px/37px FS Albert-Bold !important;
+    color: #232B76 !important;
+}
+
+.hero {
+    background: transparent url('assets/LandingBg.svg') 0% 0% no-repeat padding-box;
+    background-position: center;
+}
+
+.hero .big-header {
+    font: italic normal bold 40px/45px FS Albert-Bold;
+    letter-spacing: -0.36px;
+    color: #FFFFFF;
+}
+
+.hero .sub-header {
+    font: normal normal bold 36px/43px FS Albert-Bold;
+    color: #232B76;
+}
+
+.hero .event-date {
+    font: normal normal normal 30px/57px FS Albert;
+    letter-spacing: -0.27px;
+    color: #FFFFFF;
+}
+
+.hero .countbox {
+    width: 85px;
+    height: 94px;
+    background: 0% 0% no-repeat padding-box;
+    background-color: rgb(35, 43, 118, 0.5);
+
+}
+
+.hero .timername {
+    font: normal normal normal 19px/55px FS Albert;
+    color: #FFFFFF;
+    line-height: 1.5;
+}
+
+.btn-orange {
+    border: solid 1px #da7c0c !important;
+    background: #f78d1d !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20)) !important;
+    background: -moz-linear-gradient(top, #faa51a, #f47a20) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20') !important;
+}
+
+.btn-orange:hover {
+    background: #f47c20 !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015)) !important;
+    background: -moz-linear-gradient(top, #f88e11, #f06015) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015') !important;
+}
+
+.btn-orange:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a)) !important;
+    background: -moz-linear-gradient(top, #f47a20, #faa51a) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a') !important;
+}
+
+.btn-white {
+    border: solid 1px #b7b7b7 !important;
+    background: #fff !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed)) !important;
+    background: -moz-linear-gradient(top, #fff, #ededed) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed') !important;
+}
+
+.btn-white:hover {
+    background: #ededed !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc)) !important;
+    background: -moz-linear-gradient(top, #fff, #dcdcdc) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc') !important;
+}
+
+.btn-white:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff)) !important;
+    background: -moz-linear-gradient(top, #ededed, #fff) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff') !important;
+}
+
+.btn-darkblue {
+    border: solid 1px #232B76 !important;
+    background: #232B76 !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#03133a), to(#232B76)) !important;
+    background: -moz-linear-gradient(top, #232B76, #03133a) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#03133a', endColorstr='#232B76') !important;
+}
+
+.btn-darkblue:hover {
+    background: #03133a !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#232B76), to(#03133a)) !important;
+    background: -moz-linear-gradient(top, #232B76, #03133a) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#232B76', endColorstr='#03133a') !important;
+}
+
+.btn-darkblue:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#03133a), to(#232B76)) !important;
+    background: -moz-linear-gradient(top, #03133a, #232B76) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#03133a', endColorstr='#232B76') !important;
+}
+
+.border-darkblue {
+    border: solid 2px #03133a !important;
+}
+
+.btn-darkblue-flat {
+    background: #232B76 !important;
+    color: white !important;
+}
+
+.btn-pill {
+    -webkit-border-radius: 2em !important;
+    -moz-border-radius: 2em !important;
+    border-radius: 2em !important;
+}
+
+.albert-bold {
+    font-family: FS Albert-Bold !important;
+}
+
+.albert-light {
+    font-family: FS Albert !important;
+}
+
+.albert-italic {
+    font-style: italic !important;
+}
+
+.countbox>span:nth-child(odd) {
+    color: #FFFFFF !important;
+    line-height: 1.5 !important;
+    font-size: 37px !important;
+}
+
+.countbox>span:nth-child(even) {
+    color: #FFFFFF !important;
+    line-height: 1.5 !important;
+    font-size: 19px !important;
+}
+
+#pills-tab .nav-link.active {
+    background: #232B76 !important;
+    color: white !important;
+}
+
+#pills-tab .nav-link {
+    background: none !important;
+    color: #232B76 !important;
+    border-radius: 2em !important;
+    font-size: 17px !important;
+    padding: 0 2em !important;
+    margin: 1em 0.5em !important;
+}
+
+.ribbon {
+    color: #232B76 !important;
+}
+
+.ribbon h1 {
+    font-size: 40px;
+}
+
+.ribbon p {
+    font-size: 31px;
+}
+
+.seperator-blue {
+    height: 10px !important;
+    border-width: 0 !important;
+    background-color: #232B76 !important;
+    opacity: 1 !important;
+}
+
+.iconbox p {
+    font-size: 18px !important;
+}
+
+.iconbox .circlebg {
+    width: 74px !important;
+    height: 74px !important;
+    background: #E2F3FC 0% 0% no-repeat padding-box !important;
+    border-radius: 75% !important;
+}
+
+.sliding-cards {
+    background: #232B76 0% 0% no-repeat padding-box;
+    border-radius: 10px 10px 0px 0px;
+    color: white !important;
+}
+.sliding-cards p {
+    size: 19px;
+}
