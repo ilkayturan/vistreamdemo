@@ -240,3 +240,34 @@
     height: 25px!important;
     fill: #03133a!important;
 }
+
+ #timer {
+    font-size: 37px;
+    color: white;
+    color: white;
+    font-family: FS Albert;
+    display: flex;
+    flex-direction: row;
+}
+
+#timer div {
+    display: flex;
+    flex-direction: column;
+    width: 85px;
+    height: 94px;
+    background: 0% 0% no-repeat padding-box;
+    background-color: rgb(35, 43, 118, 0.5);
+    color: #ffffff;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#timer div:last-child
+{
+    margin-right: 0;
+}
+#timer div span {
+    color: #ffffff;
+    display: block;
+    font-size: 19px;
+}
